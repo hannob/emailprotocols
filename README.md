@@ -23,10 +23,12 @@ MIME Content-Transfer-Encoding formats
 * Common: 7BIT, 8BIT, BASE64, QUOTED-PRINTABLE
 * Old/nonstandard: yencode, xxencode, uuencode
 
-Extra protocols
----------------
+Additional TCP protocols and protocol variations
+------------------------------------------------
 
 * Sieve
+* JMAP [RFC 8620](https://datatracker.ietf.org/doc/html/rfc8620)
+* LMTP [RFC 2033](https://datatracker.ietf.org/doc/html/rfc8551)
 
 Security Addons
 ---------------
@@ -37,6 +39,7 @@ Security Addons
 * Sender ID (obsolete SPF alternative) [RFC 4406](https://datatracker.ietf.org/doc/html/rfc4406)
 * DKIM [RFC 6376](https://datatracker.ietf.org/doc/html/rfc6376)
 * DMARC [RFC 7489](https://datatracker.ietf.org/doc/html/rfc7489)
+* Authenticated Received Chain (ARC) [RFC 8617](https://datatracker.ietf.org/doc/html/rfc8617)
 * MTA-STS [RFC 8461](https://www.rfc-editor.org/rfc/rfc8461.html)
 * DANE
 
@@ -45,8 +48,9 @@ Reporting
 
 * Delivery Status Notifications
 * Message Disposition Notifications
+* Abuse Reporting Format (ARF) [RFC 5965](https://datatracker.ietf.org/doc/html/rfc5965)
 * DMARC reporting (XML)
-* SMTP TLS reporting (JSON)
+* SMTP TLS reporting (JSON) [RFC 8460](https://datatracker.ietf.org/doc/html/rfc8460)
 
 API
 ---
@@ -61,6 +65,12 @@ Login
 * CRAM-MD5
 * OAUTH/XOAUTH
 * And many more: https://www.iana.org/assignments/sasl-mechanisms/sasl-mechanisms.xhtml
+
+End-to-End encryption and signing
+---------------------------------
+
+* OpenPGP [RFC 4880](https://datatracker.ietf.org/doc/html/rfc4880) (including related protocols: Keyservers, WKD, ...)
+* S/MIME [RFC 8551](https://datatracker.ietf.org/doc/html/rfc8551) (including related protocols: X.509, BIMI, ...)
 
 Other
 -----
