@@ -72,6 +72,13 @@ End-to-End encryption and signing
 * OpenPGP [RFC 4880](https://datatracker.ietf.org/doc/html/rfc4880) (including related protocols: Keyservers, WKD, ...)
 * S/MIME [RFC 8551](https://datatracker.ietf.org/doc/html/rfc8551) (including related protocols: X.509, BIMI, ...)
 
+Extra mailheaders
+-----------------
+
+* X-Face, Face
+* List-Unsubscribe-Post [RFC 8058](https://datatracker.ietf.org/doc/html/rfc8058)
+* Expires [draft-billon-expires](https://datatracker.ietf.org/doc/draft-billon-expires/)
+
 Other
 -----
 
@@ -81,4 +88,3 @@ Other
 * DNS SRV records
 * DNSBL [RFC 5782](https://datatracker.ietf.org/doc/html/rfc5782)
 * Milter
-* List-Unsubscribe-Post [RFC 8058](https://datatracker.ietf.org/doc/html/rfc8058)
