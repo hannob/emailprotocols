@@ -40,8 +40,9 @@ Security Addons
 * DKIM [RFC 6376](https://datatracker.ietf.org/doc/html/rfc6376)
 * DMARC [RFC 7489](https://datatracker.ietf.org/doc/html/rfc7489)
 * Authenticated Received Chain (ARC) [RFC 8617](https://datatracker.ietf.org/doc/html/rfc8617)
-* MTA-STS [RFC 8461](https://www.rfc-editor.org/rfc/rfc8461.html)
+* MTA-STS [RFC 8461](https://datatracker.ietf.org/doc/html/rfc8461.html)
 * DANE
+* REQUIRETLS [RFC 8689](https://datatracker.ietf.org/doc/html/rfc8689)
 
 Reporting
 ---------
@@ -82,9 +83,9 @@ Extra mailheaders
 Other
 -----
 
-* BURL [RFC 4468](https://www.rfc-editor.org/rfc/rfc4468.html)
+* BURL [RFC 4468](https://datatracker.ietf.org/doc/html/rfc4468.html)
 * Autoresponder [RFC 3834](https://datatracker.ietf.org/doc/html/rfc3834)
 * autoconfig
-* DNS SRV records
+* DNS SRV records [RFC 6186](https://datatracker.ietf.org/doc/html/rfc6186) [RFC 8314](https://datatracker.ietf.org/doc/html/rfc8314)
 * DNSBL [RFC 5782](https://datatracker.ietf.org/doc/html/rfc5782)
 * Milter
